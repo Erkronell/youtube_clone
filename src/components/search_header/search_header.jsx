@@ -1,5 +1,5 @@
 import styles from './search_header.module.css';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 
 const SearchHeader = ({ onSearch }) => {
   const inputRef = useRef();
